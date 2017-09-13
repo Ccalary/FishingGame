@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE2DF53E1F68F8F000F4578A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF53D1F68F8F000F4578A /* main.m */; };
+		FE2DF5411F68F8F000F4578A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5401F68F8F000F4578A /* AppDelegate.m */; };
+		FE2DF5441F68F8F000F4578A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5431F68F8F000F4578A /* ViewController.m */; };
+		FE2DF5471F68F8F000F4578A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2DF5451F68F8F000F4578A /* Main.storyboard */; };
+		FE2DF5491F68F8F000F4578A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2DF5481F68F8F000F4578A /* Assets.xcassets */; };
+		FE2DF54C1F68F8F000F4578A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2DF54A1F68F8F000F4578A /* LaunchScreen.storyboard */; };
+		FE2DF5591F68FA5500F4578A /* FishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5581F68FA5500F4578A /* FishViewController.m */; };
+		FE2DF5671F690ACD00F4578A /* FishHookView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF55E1F690ACD00F4578A /* FishHookView.m */; };
+		FE2DF5681F690ACD00F4578A /* FishingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5601F690ACD00F4578A /* FishingView.m */; };
+		FE2DF5691F690ACD00F4578A /* FishModelImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5621F690ACD00F4578A /* FishModelImageView.m */; };
+		FE2DF56A1F690ACD00F4578A /* HHShootButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5641F690ACD00F4578A /* HHShootButton.m */; };
+		FE2DF56B1F690ACD00F4578A /* HHWinMoneyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF5661F690ACD00F4578A /* HHWinMoneyLabel.m */; };
+		FE2DF56F1F690C1F00F4578A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2DF56E1F690C1F00F4578A /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE2DF5391F68F8F000F4578A /* FishingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2DF53D1F68F8F000F4578A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE2DF53F1F68F8F000F4578A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE2DF5401F68F8F000F4578A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE2DF5421F68F8F000F4578A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE2DF5431F68F8F000F4578A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE2DF5461F68F8F000F4578A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE2DF5481F68F8F000F4578A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE2DF54B1F68F8F000F4578A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE2DF54D1F68F8F000F4578A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2DF5571F68FA5500F4578A /* FishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishViewController.h; sourceTree = "<group>"; };
+		FE2DF5581F68FA5500F4578A /* FishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishViewController.m; sourceTree = "<group>"; };
+		FE2DF55D1F690ACD00F4578A /* FishHookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishHookView.h; sourceTree = "<group>"; };
+		FE2DF55E1F690ACD00F4578A /* FishHookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishHookView.m; sourceTree = "<group>"; };
+		FE2DF55F1F690ACD00F4578A /* FishingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishingView.h; sourceTree = "<group>"; };
+		FE2DF5601F690ACD00F4578A /* FishingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishingView.m; sourceTree = "<group>"; };
+		FE2DF5611F690ACD00F4578A /* FishModelImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishModelImageView.h; sourceTree = "<group>"; };
+		FE2DF5621F690ACD00F4578A /* FishModelImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishModelImageView.m; sourceTree = "<group>"; };
+		FE2DF5631F690ACD00F4578A /* HHShootButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHShootButton.h; sourceTree = "<group>"; };
+		FE2DF5641F690ACD00F4578A /* HHShootButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHShootButton.m; sourceTree = "<group>"; };
+		FE2DF5651F690ACD00F4578A /* HHWinMoneyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHWinMoneyLabel.h; sourceTree = "<group>"; };
+		FE2DF5661F690ACD00F4578A /* HHWinMoneyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHWinMoneyLabel.m; sourceTree = "<group>"; };
+		FE2DF56D1F690C1F00F4578A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		FE2DF56E1F690C1F00F4578A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		FE2DF5701F690C5600F4578A /* GlobalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE2DF5361F68F8F000F4578A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE2DF5301F68F8F000F4578A = {
+			isa = PBXGroup;
+			children = (
+				FE2DF53B1F68F8F000F4578A /* FishingGame */,
+				FE2DF53A1F68F8F000F4578A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE2DF53A1F68F8F000F4578A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DF5391F68F8F000F4578A /* FishingGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE2DF53B1F68F8F000F4578A /* FishingGame */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DF56C1F690BFC00F4578A /* Utils */,
+				FE2DF5561F68FA2200F4578A /* FishView */,
+				FE2DF53F1F68F8F000F4578A /* AppDelegate.h */,
+				FE2DF5401F68F8F000F4578A /* AppDelegate.m */,
+				FE2DF5421F68F8F000F4578A /* ViewController.h */,
+				FE2DF5431F68F8F000F4578A /* ViewController.m */,
+				FE2DF5571F68FA5500F4578A /* FishViewController.h */,
+				FE2DF5581F68FA5500F4578A /* FishViewController.m */,
+				FE2DF5451F68F8F000F4578A /* Main.storyboard */,
+				FE2DF5481F68F8F000F4578A /* Assets.xcassets */,
+				FE2DF54A1F68F8F000F4578A /* LaunchScreen.storyboard */,
+				FE2DF54D1F68F8F000F4578A /* Info.plist */,
+				FE2DF53C1F68F8F000F4578A /* Supporting Files */,
+			);
+			path = FishingGame;
+			sourceTree = "<group>";
+		};
+		FE2DF53C1F68F8F000F4578A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DF53D1F68F8F000F4578A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE2DF5561F68FA2200F4578A /* FishView */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DF55D1F690ACD00F4578A /* FishHookView.h */,
+				FE2DF55E1F690ACD00F4578A /* FishHookView.m */,
+				FE2DF55F1F690ACD00F4578A /* FishingView.h */,
+				FE2DF5601F690ACD00F4578A /* FishingView.m */,
+				FE2DF5611F690ACD00F4578A /* FishModelImageView.h */,
+				FE2DF5621F690ACD00F4578A /* FishModelImageView.m */,
+				FE2DF5631F690ACD00F4578A /* HHShootButton.h */,
+				FE2DF5641F690ACD00F4578A /* HHShootButton.m */,
+				FE2DF5651F690ACD00F4578A /* HHWinMoneyLabel.h */,
+				FE2DF5661F690ACD00F4578A /* HHWinMoneyLabel.m */,
+			);
+			path = FishView;
+			sourceTree = "<group>";
+		};
+		FE2DF56C1F690BFC00F4578A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FE2DF5701F690C5600F4578A /* GlobalDefine.h */,
+				FE2DF56D1F690C1F00F4578A /* UIView+Extension.h */,
+				FE2DF56E1F690C1F00F4578A /* UIView+Extension.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE2DF5381F68F8F000F4578A /* FishingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2DF5501F68F8F000F4578A /* Build configuration list for PBXNativeTarget "FishingGame" */;
+			buildPhases = (
+				FE2DF5351F68F8F000F4578A /* Sources */,
+				FE2DF5361F68F8F000F4578A /* Frameworks */,
+				FE2DF5371F68F8F000F4578A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishingGame;
+			productName = FishingGame;
+			productReference = FE2DF5391F68F8F000F4578A /* FishingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE2DF5311F68F8F000F4578A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chh;
+				TargetAttributes = {
+					FE2DF5381F68F8F000F4578A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2M227336GQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE2DF5341F68F8F000F4578A /* Build configuration list for PBXProject "FishingGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE2DF5301F68F8F000F4578A;
+			productRefGroup = FE2DF53A1F68F8F000F4578A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2DF5381F68F8F000F4578A /* FishingGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE2DF5371F68F8F000F4578A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DF54C1F68F8F000F4578A /* LaunchScreen.storyboard in Resources */,
+				FE2DF5491F68F8F000F4578A /* Assets.xcassets in Resources */,
+				FE2DF5471F68F8F000F4578A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE2DF5351F68F8F000F4578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2DF56F1F690C1F00F4578A /* UIView+Extension.m in Sources */,
+				FE2DF5591F68FA5500F4578A /* FishViewController.m in Sources */,
+				FE2DF5441F68F8F000F4578A /* ViewController.m in Sources */,
+				FE2DF5411F68F8F000F4578A /* AppDelegate.m in Sources */,
+				FE2DF56B1F690ACD00F4578A /* HHWinMoneyLabel.m in Sources */,
+				FE2DF56A1F690ACD00F4578A /* HHShootButton.m in Sources */,
+				FE2DF5691F690ACD00F4578A /* FishModelImageView.m in Sources */,
+				FE2DF53E1F68F8F000F4578A /* main.m in Sources */,
+				FE2DF5671F690ACD00F4578A /* FishHookView.m in Sources */,
+				FE2DF5681F690ACD00F4578A /* FishingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE2DF5451F68F8F000F4578A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2DF5461F68F8F000F4578A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE2DF54A1F68F8F000F4578A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2DF54B1F68F8F000F4578A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE2DF54E1F68F8F000F4578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE2DF54F1F68F8F000F4578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE2DF5511F68F8F000F4578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M227336GQ;
+				INFOPLIST_FILE = FishingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.find.FishingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE2DF5521F68F8F000F4578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2M227336GQ;
+				INFOPLIST_FILE = FishingGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.find.FishingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE2DF5341F68F8F000F4578A /* Build configuration list for PBXProject "FishingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2DF54E1F68F8F000F4578A /* Debug */,
+				FE2DF54F1F68F8F000F4578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2DF5501F68F8F000F4578A /* Build configuration list for PBXNativeTarget "FishingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2DF5511F68F8F000F4578A /* Debug */,
+				FE2DF5521F68F8F000F4578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE2DF5311F68F8F000F4578A /* Project object */;
+}
