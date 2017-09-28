@@ -82,12 +82,12 @@
 			children = (
 				FE2DF56C1F690BFC00F4578A /* Utils */,
 				FE2DF5561F68FA2200F4578A /* FishView */,
-				FE2DF53F1F68F8F000F4578A /* AppDelegate.h */,
-				FE2DF5401F68F8F000F4578A /* AppDelegate.m */,
-				FE2DF5421F68F8F000F4578A /* ViewController.h */,
-				FE2DF5431F68F8F000F4578A /* ViewController.m */,
 				FE2DF5571F68FA5500F4578A /* FishViewController.h */,
 				FE2DF5581F68FA5500F4578A /* FishViewController.m */,
+				FE2DF5421F68F8F000F4578A /* ViewController.h */,
+				FE2DF5431F68F8F000F4578A /* ViewController.m */,
+				FE2DF53F1F68F8F000F4578A /* AppDelegate.h */,
+				FE2DF5401F68F8F000F4578A /* AppDelegate.m */,
 				FE2DF5451F68F8F000F4578A /* Main.storyboard */,
 				FE2DF5481F68F8F000F4578A /* Assets.xcassets */,
 				FE2DF54A1F68F8F000F4578A /* LaunchScreen.storyboard */,
@@ -108,10 +108,10 @@
 		FE2DF5561F68FA2200F4578A /* FishView */ = {
 			isa = PBXGroup;
 			children = (
-				FE2DF55D1F690ACD00F4578A /* FishHookView.h */,
-				FE2DF55E1F690ACD00F4578A /* FishHookView.m */,
 				FE2DF55F1F690ACD00F4578A /* FishingView.h */,
 				FE2DF5601F690ACD00F4578A /* FishingView.m */,
+				FE2DF55D1F690ACD00F4578A /* FishHookView.h */,
+				FE2DF55E1F690ACD00F4578A /* FishHookView.m */,
 				FE2DF5611F690ACD00F4578A /* FishModelImageView.h */,
 				FE2DF5621F690ACD00F4578A /* FishModelImageView.m */,
 				FE2DF5631F690ACD00F4578A /* HHShootButton.h */,
@@ -374,6 +374,7 @@
 				FE2DF5521F68F8F000F4578A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
