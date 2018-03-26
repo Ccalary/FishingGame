@@ -295,7 +295,7 @@ NSString *const kLineUpAnimationValue = @"LineUpAnimationValue";
     }
     
     if (self.isCatched){//钓到鱼后落金币
-        HHShootButton *button = [[HHShootButton alloc] initWithFrame:CGRectMake(_lineOffsetX, 0, 10, 10) andEndPoint:CGPointMake(10, 200)];
+        HHShootButton *button = [[HHShootButton alloc] initWithFrame:CGRectMake(_lineOffsetX, 0, 10, 10) andEndPoint:CGPointMake(15, 200)];
         button.setting.iconImage = [UIImage imageNamed:@"coin"];
         button.setting.animationType = ShootButtonAnimationTypeLine;
         [self.bgImageView addSubview:button];

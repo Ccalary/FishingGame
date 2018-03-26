@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
     _fishView = [[FishingView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:_fishView];
     
